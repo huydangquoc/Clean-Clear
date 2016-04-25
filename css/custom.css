@@ -1,19 +1,18 @@
-body {
-    margin-top: 50px;
+body{
+    margin-top:50px;
 }
 
-.pad-top-10{padding-top: 10px;}
-.pad-top-20{padding-top: 20px;}
-.pad-top-30{padding-top: 30px;}
+.pad-top-10{padding-top:10px;}
+.pad-top-20{padding-top:20px;}
+.pad-top-30{padding-top:30px;}
 
 .well{
-    background: #ffffff !important;
-
+    background:#ffffff !important;
 }
 
 .top-bar{
     height:5px;
-    background-color:#ca2129;
+    background:#ca2129;
     margin-bottom:1px;
 }
 
@@ -21,44 +20,36 @@ body {
     margin-bottom:1px;
 }
 
-.navbar-default .navbar-collapse, .navbar-default .navbar-form{
-    overflow:hidden;
-}
-
-.navbar-collapse li:hover{
+.navbar li:hover{
     background:#e7e7e7;
 }
 
-li.login a {
-    background: #ca2129;
-    margin-bottom: -10px !important;
-    color: #ffffff !important;
-    padding-right: 22px;
-    padding-left: 22px;
+li.login a{
+    background:#ca2129;
+    margin-bottom:-10px !important;
+    color:#ffffff !important;
+    padding-right:22px;
+    padding-left:22px;
 }
 
-li.login a:hover, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    background: #cccccc;
+li.login a:hover,.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+    background:#cccccc;
 }
 
-li.register a {
-    background: #2f98cc;
-    margin-bottom: -10px !important;
-    color: #ffffff !important;
-    padding-right: 22px;
-    padding-left: 22px;
+li.register a{
+    background:#2f98cc;
+    margin-bottom:-10px !important;
+    color:#ffffff !important;
 }
 
-li.register a:hover, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    background: #cccccc;
+li.register a:hover,.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+    background:#cccccc;
 }
 
-
-/* Jumbotron */
 .jumbotron{
-    background:#f4f4f4 url(../images/waterdrop.jpg) no-repeat 50% 0;
+    background:url(../images/waterdrop.jpg) no-repeat 50% 0;
     height:350px;
-	padding:0;
+    padding:0;
 }
 
 .jumbotron [class*="col-"] {
@@ -72,78 +63,82 @@ li.register a:hover, .navbar-default .navbar-nav > li > a:hover, .navbar-default
     height:350px;
 }
 
-.jumbotron h1{
-	font-size:34px;
-	border-bottom:1px solid #ffffff;
-	padding-bottom:10px;
-}
-
 .jumbotron-content{
     color:#ffffff;
 }
 
-.bluebox {
-    background: #2e98cc;
-    overflow: hidden;
-    height: 230px;
-    color:#ffffff;
-    padding: 0 10px;
-    font-size: 120%;
+.jumbotron h1{
+    font-size:34px;
+    border-bottom:#ffffff solid 1px;
+    padding-bottom:10px;
 }
 
-.bluebox a.readmore {
-    position: absolute;
-    bottom: 15px;
+.bluebox{
+    background:#2e98cc;
+    overflow:hidden;
+    height:230px;
+    color:#ffffff;
+    padding:0 10px;
+    font-size:120%;
+}
+
+.bluebox a.readmore{
+    position:absolute;
+    bottom:15px;
     left:30px;
-    background: #2b8cbc;
-    padding: 10px 15px;
+    background:#2b8cbc;
+    padding:10px 15px;
     color:#ffffff;
 }
 
-.bluebox a.readmore:hover  {
-    background: #20749d;
+.bluebox a.readmore:hover{
+    background:#20749d;
 }
 
-.redbox {
-    background: #ca2129;
-    overflow: hidden;
-    height: 230px;
+.redbox{
+    background:#ca2129;
+    overflow:hidden;
+    height:230px;
     color:#ffffff;
-    padding: 0 10px;
-    font-size: 120%;
+    padding:0 10px;
+    font-size:120%;
 }
 
-.redbox a.readmore {
-    position: absolute;
-    bottom: 15px;
+.redbox a.readmore{
+    position:absolute;
+    bottom:15px;
     left:30px;
-    background: #bd1e26;
-    padding: 10px 15px;
+    background:#bf1e26;
+    padding:10px 15px;
     color:#ffffff;
 }
 
-.redbox a.readmore:hover  {
-    background: #86161b;
+.redbox a.readmore:hover{
+    background:#86161b;
 }
 
-.media-body {
-    font-size: 120%;
+.media-body{
+    font-size:120%;
 }
 
-.panel-default > .panel-heading {
-    background: #2e98cc;
-    color: #ffffff;
+.panel a:hover{
+    text-decoration: none;
 }
 
-a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus {
-    background-color: #ca2129;
-    border-color: #ca2129;
+.panel-blue-heading{
+    background:#2e98cc !important;
+    color:#ffffff !important;
 }
 
-.grey-list a.list-group-item.active, .grey-list a.list-group-item.active:hover, .grey-list a.list-group-item.active:focus {
-    background-color: #f4f4f4;
-    border-color: #cccccc;
-    color: #666666;
+a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus{
+    background:#ca2129;
+    border:#ca2129;
+}
+
+.grey-list a.list-group-item.active, .grey-list a.list-group-item.active:hover, .grey-list a.list-group-item.active:focus{
+    background:#f4f4f4;
+    border:#cccccc;
+    color:#666666 !important;
 }
 
 #blog img{
@@ -179,29 +174,33 @@ small{
 }
 
 iframe.gmap{
-    width: 100%;
+    width:100%;
     border:#cccccc 1px solid;
-    border-radius: 10px;
-    padding: 4px;
+    border-radius:10px;
+    padding:4px;
 }
 
 .greywell{
     background:#f4f4f4 !important;
 }
 
-#tooltip1, #tooltip2{
+#tooltip1,#tooltip2{
     color:#ffffff;
-    border-bottom: dotted 1px #ffffff;
-    padding-bottom: 2px;
+    border-bottom:dotted 1px #ffffff;
+    padding-bottom:2px;
 }
 
-#tooltip1:hover, #tooltip2:hover{
+#tooltip1:hover,#tooltip2:hover{
     text-decoration: none;
+}
+
+.tab-pane{
+    padding-top:10px;
 }
 
 footer{
     text-align: center;
-    padding: 20px 0;
-    font-weight: bold;
-    background: #f4f4f4;
+    padding:20px 0;
+    font-weight:bold;
+    background:#f4f4f4;
 }
